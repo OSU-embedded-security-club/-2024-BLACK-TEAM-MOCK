@@ -1,3 +1,9 @@
 deployment/global_secrets.h
 ectf_tools/__pycache__/
 msdk/
+
+*.img
+*.elf
+*.bin
+*.o
+application_processor/build
