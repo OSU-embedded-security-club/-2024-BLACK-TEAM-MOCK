@@ -17,11 +17,13 @@
  *  Length of the memory buffer, function is aborted if the length exceeds 80
  *
  * @requires length to be less than or equal to 80 
- * */
+ *
+ * @return zero if successfully sent packet, non-zero if unable to send a packet
+* */
 int WriteData(uint8_t recipient, uint8_t *data, size_t length);
 
 /* 
  * NOTE: Maybe we call this function via a callback/event/interrupt instead of a while loop?? idk
  * */
-int ReadData();
+int ReadData(uint8_t address, uint8_t *packet);
 

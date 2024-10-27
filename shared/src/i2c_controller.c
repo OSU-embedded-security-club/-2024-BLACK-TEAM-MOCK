@@ -39,3 +39,9 @@ int WriteData(uint8_t recipient, uint8_t *data, size_t length)
 
         return 0;
 }
+
+
+int ReadData(uint8_t address, uint8_t *packet)
+{
+        return 0;
+}
