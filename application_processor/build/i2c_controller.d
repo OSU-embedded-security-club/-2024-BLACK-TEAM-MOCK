@@ -1,5 +1,5 @@
-/home/bon/Documents/mock-team-black/application_processor/build/main.o: \
- src/main.c \
+/home/bon/Documents/mock-team-black/application_processor/build/i2c_controller.o: \
+ ../shared/src/i2c_controller.c ../shared/inc/i2c_controller.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/stdint.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/machine/_default_types.h \
@@ -7,29 +7,22 @@
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/_newlib_version.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/_intsup.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/_stdint.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/stdio.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/string.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/_ansi.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/newlib.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/config.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/machine/ieeefp.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/cdefs.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdarg.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/reent.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/_ansi.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/_types.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/machine/_types.h \
  /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/lock.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/stdio.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/MiscDrivers/LED/led.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_assert.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/Boards/MAX78000/FTHR_RevA/Include/board.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/spi_regs.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/gpio_regs.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/MiscDrivers/Display/tft_ili9341.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/spi.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdbool.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_sys.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/cdefs.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/_locale.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/strings.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/string.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_device.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/max78000.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/5.9.0/Core/Include/core_cm4.h \
@@ -42,17 +35,27 @@
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_errors.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_pins.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/gpio.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/lpgcr_regs.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/gcr_regs.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/gpio_regs.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_delay.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_assert.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_lock.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_sys.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/lpgcr_regs.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/gcr_regs.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/nvic_table.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/Boards/MAX78000/FTHR_RevA/Include/board.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/stdio.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdarg.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/stdio.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/spi_regs.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/MiscDrivers/Display/tft_ili9341.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/spi.h \
+ /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdbool.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/gpio.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/MiscDrivers/Touchscreen/tsc2046.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/MiscDrivers/LED/led.h \
+ /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_assert.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/MiscDrivers/PushButton/pb.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_delay.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/mxc_delay.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/nvic_table.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/adc.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/adc_regs.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/mcr_regs.h \
@@ -96,9 +99,4 @@
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/wdt.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/wdt_regs.h \
  /home/bon/Documents/mock-team-black/msdk/Libraries/PeriphDrivers/Include/MAX78000/wut.h \
- /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/wut_regs.h \
- ../shared/inc/i2c_controller.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/string.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/_locale.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/strings.h \
- /nix/store/shci5ykbsfws7kcxpqnn2qqxfw761haw-gcc-arm-embedded-12.3.rel1/arm-none-eabi/include/sys/string.h
+ /home/bon/Documents/mock-team-black/msdk/Libraries/CMSIS/Device/Maxim/MAX78000/Include/wut_regs.h

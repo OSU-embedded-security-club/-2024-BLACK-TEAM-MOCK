@@ -272,3 +272,8 @@ options:
 ```
 ectf_attestation -a /dev/ttyUSB0 -p 123456 -c 0x11111124
 ```
+
+Use to objdump the executables, it is available in this package https://manpages.debian.org/bullseye/binutils-arm-linux-gnueabi/index.html
+```
+arm-linux-gnueabi-objdump
+```

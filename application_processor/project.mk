@@ -18,9 +18,23 @@
 override BOARD=FTHR_RevA
 MFLOAT_ABI=soft
 
+ROOT:=../
+
+# Add shared paths
+# These need to be added before our main src to ensure we can link our shared code with the main file
+VPATH+=$(ROOT)shared/src/
+IPATH+=$(ROOT)shared/inc/
+
 IPATH+=../deployment
 IPATH+=inc/
 VPATH+=src/
+
+# We will see if we can even compile with this enabled...
+PROJ_CFLAGS += --pedantic
+
+$(info $(IPATH))
+
+$(info $(VPATH))
 
 # ****************** eCTF Bootloader *******************
 # DO NOT REMOVE
@@ -28,14 +42,3 @@ LINKERFILE=firmware.ld
 STARTUPFILE=startup_firmware.S
 ENTRY=firmware_startup
 
-# ****************** eCTF Crypto Example *******************
-# Uncomment the commented lines below and comment the disable
-# lines to enable the eCTF Crypto Example.
-# WolfSSL must be included in this directory as wolfssl/
-# WolfSSL can be downloaded from: https://www.wolfssl.com/download/
-
-# Disable Crypto Example
-CRYPTO_EXAMPLE=0
-
-# Enable Crypto Example
-#CRYPTO_EXAMPLE=1
