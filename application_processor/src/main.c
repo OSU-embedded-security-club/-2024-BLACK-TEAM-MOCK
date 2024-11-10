@@ -53,7 +53,7 @@ int main(void)
         printf("write success: %d\n", write_success);
 
         //readData(I2C_ADDR, &recievedData,1);
-        //printf("Retard alert\n 0x%x",recievedData);
+        //printf("alert\n 0x%x",recievedData);
 
         LED_Off(LED3);
 
