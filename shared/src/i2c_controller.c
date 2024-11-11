@@ -58,6 +58,7 @@ int ReadData(uint8_t address, uint8_t *packet)
                 .callback = NULL
         };
         MXC_I2C_Read(&i2c, (char*) packet, &i2c.rx_len, 1);
+        //test
         // https://analogdevicesinc.github.io/msdk/Libraries/PeriphDrivers/Documentation/MAX78000/group__i2c.html
 
         return 0;
